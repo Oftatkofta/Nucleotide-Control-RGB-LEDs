@@ -49,7 +49,7 @@ gradient, speed, max_intensity *et.c.*
 * A fouth "dimension" of some sort to signal if the current nucleotide
 is exon or intron (coding, or non coding).
 
-*If I get a proper RGB strip I'll move on to amino acid (protein) sequences.
+* If I get a proper RGB strip I'll move on to amino acid (protein) sequences.
 
 
 
