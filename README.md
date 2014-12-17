@@ -21,7 +21,7 @@ repository in both .fzz and .PDF formats, with file names
 'Nucleotide-Control-RGB-LEDs.fzz', and
 'Nucleotide-Control-RGB-LEDs.PDF', respectively.
 
-![](3PWM_LEDs_schematic_schem.png)
+![](3PWM_LEDs_schematic_schem.jpg)
 
 ##List Components
 * 1 x Arduino Pro Nano clone (16 MHz Atmega328P)
