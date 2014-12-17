@@ -2,8 +2,6 @@
 Nucleotide-Control-RGB-LEDs
 ---
 
-![](Picture-of-setup.jpg)
-
 An Arduino sketch that blinks RGB LED strips according to a DNA
 sequence. Its purpose is to provide an extra dimension to Christmas, and other
 decorative, LED ligthing. Therefore, the sktech is preloaded with a
@@ -24,15 +22,15 @@ repository in both .fzz and .PDF formats, with file names
 'Nucleotide-Control-RGB-LEDs.PDF', respectively.
 
 ##List Components
-1 x Arduino Pro Nano clone (16 MHz Atmega328P)
-3 x 5 m common cathode RGB LED strips
-3 x 8.2 kOhm resistors
-3 x TIP120 darlington transistors
-1 x LM2040CT-5.0 5V Voltage regulator (a 7805 will work fine too)
-1 x 1 uF 50 V capacitor
-1 x 22 uF 50 V capacitor
-1 x Nintendo GameCube 12 V power brick
-some differently colored wires (helps with keeping track on which
+* 1 x Arduino Pro Nano clone (16 MHz Atmega328P)
+* 3 x 5 m common cathode RGB LED strips
+* 3 x 8.2 kOhm resistors
+* 3 x TIP120 darlington transistors
+* 1 x LM2040CT-5.0 5V Voltage regulator (a 7805 will work fine too)
+* 1 x 1 uF 50 V capacitor
+* 1 x 22 uF 50 V capacitor
+* 1 x Nintendo GameCube 12 V power brick
+* some differently colored wires (helps with keeping track on which
 channel is which)
 
 
