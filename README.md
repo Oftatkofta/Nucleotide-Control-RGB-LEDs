@@ -2,6 +2,8 @@
 Nucleotide-Control-RGB-LEDs
 ---
 
+![](Picture-of-setup.jpg)
+
 An Arduino sketch that blinks RGB LED strips according to a DNA
 sequence. Its purpose is to provide an extra dimension to Christmas, and other
 decorative, LED ligthing. Therefore, the sktech is preloaded with a
