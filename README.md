@@ -1,7 +1,6 @@
+---
 Nucleotide-Control-RGB-LEDs
-<<<<<<< HEAD
-<<<<<<< HEAD
-========================
+---
 
 An Arduino sketch that blinks RGB LED strips according to a DNA
 sequence. Its purpose is to provide an extra dimension to Christmas, and other
@@ -41,12 +40,3 @@ is exon or intron (coding, or non coding).
 
 
 =======
-===========================
-
-An Arduino sketch that blinks RGB LED strips according to a DNA sequence
->>>>>>> FETCH_HEAD
-=======
-===========================
-
-An Arduino sketch that blinks RGB LED strips according to a DNA sequence
->>>>>>> FETCH_HEAD
