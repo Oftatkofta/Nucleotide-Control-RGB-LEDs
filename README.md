@@ -20,10 +20,23 @@ information on how the code works is contained in the code comments, so be sure 
 
 Schematic wiring diagrams for the driving circuit are available in the
 repository in both .fzz and .PDF formats, with file names
-'Nucleotide-Control-RGB-LEDs.fzz', and 'Nucleotide-Control-RGB-LEDs.PDF', respectively. 
+'Nucleotide-Control-RGB-LEDs.fzz', and
+'Nucleotide-Control-RGB-LEDs.PDF', respectively.
+
+##List Components
+1 x Arduino Pro Nano clone (16 MHz Atmega328P)
+3 x 5 m common cathode RGB LED strips
+3 x 8.2 kOhm resistors
+3 x TIP120 darlington transistors
+1 x LM2040CT-5.0 5V Voltage regulator (a 7805 will work fine too)
+1 x 1 uF 50 V capacitor
+1 x 22 uF 50 V capacitor
+1 x Nintendo GameCube 12 V power brick
+some differently colored wires (helps with keeping track on which
+channel is which)
 
 
-##To Do's before next holliday season
+##To Do's before next holiday season
 
 * Real-time access to send GenBank accession numbers, so
 everyone can see their favourite gene, or genome, in action.
