@@ -9,7 +9,7 @@ gene sequence from Norway Spruce, *Picea abies*, so that you can put up
 a truly *meta* Christmas tree. Or, you can make a Christmas tree shape
 from LEDs and have yourself a minimalist *abstract* Christmas.
 
-Currentyl the color mappings are:
+By default the color mappings are:
 * A -> red
 * T -> Purple (red+blue)
 * C -> blue
