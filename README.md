@@ -9,6 +9,8 @@ gene sequence from Norway Spruce, *Picea abies*, so that you can put up
 a truly *meta* Christmas tree. Or, you can make a Christmas tree shape
 from LEDs and have yourself a minimalist *abstract* Christmas.
 
+![](Nucleotide-Control-RGB-LEDs_bb.jpg)
+
 The code was developed for LED strips with separate R, G, B LEDs,
 but it should work just fine with combined RGB LED strips (or single
 LEDs), as long as you do the wiring properly. If you run a true RGB LED strip,
