@@ -9,6 +9,13 @@ gene sequence from Norway Spruce, *Picea abies*, so that you can put up
 a truly *meta* Christmas tree. Or, you can make a Christmas tree shape
 from LEDs and have yourself a minimalist *abstract* Christmas.
 
+Currentyl the color mappings are:
+* A -> red
+* T -> Purple (red+blue)
+* C -> blue
+* G -> green
+
+
 ![](Nucleotide-Control-RGB-LEDs_bb.jpg)
 
 The code was developed for 12 V LED strips with separate R, G, B LEDs,
@@ -21,7 +28,7 @@ information on how the code works is contained in the code comments, so be sure 
 Schematic wiring diagrams for the driving circuit are available in the
 repository in both .fzz and .PDF formats, with file names
 'Nucleotide-Control-RGB-LEDs.fzz', and
-'Nucleotide-Control-RGB-LEDs.PDF', respectively.
+'Nucleotide-Control-RGB-LEDs.PDF', respectively. The .fzz file can be opened in [Fritzling](http://fritzing.org)
 
 ![](Nucleotide-Control-RGB-LEDs_schem.jpg)
 
