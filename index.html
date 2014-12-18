@@ -1,0 +1,121 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Nucleotide-control-rgb-leds</title>
+  <meta name="description" content="An Arduino sketch to blink RGB LEDs after a nucleotide sequence">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Nucleotide-control-rgb-leds</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">An Arduino sketch to blink RGB LEDs after a nucleotide sequence</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/Oftatkofta/Nucleotide-Control-RGB-LEDs/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/Oftatkofta/Nucleotide-Control-RGB-LEDs/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/Oftatkofta/Nucleotide-Control-RGB-LEDs" class="code">View Nucleotide-control-rgb-leds on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <hr>
+
+<h2>
+<a id="nucleotide-control-rgb-leds" class="anchor" href="#nucleotide-control-rgb-leds" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nucleotide-Control-RGB-LEDs</h2>
+
+<p><img src="Picture-of-setup.jpg" alt="">
+An Arduino sketch that blinks RGB LED strips according to a DNA
+sequence. Its purpose is to provide an extra dimension to Christmas, and other
+decorative, LED ligthing. Therefore, the sktech is preloaded with a
+gene sequence from Norway Spruce, <em>Picea abies</em>, so that you can put up
+a truly <em>meta</em> Christmas tree. Or, you can make a Christmas tree shape
+from LEDs and have yourself a minimalist <em>abstract</em> Christmas.</p>
+
+<p><img src="Nucleotide-Control-RGB-LEDs_bb.jpg" alt=""></p>
+
+<p>The code was developed for LED strips with separate R, G, B LEDs,
+but it should work just fine with combined RGB LED strips (or single
+LEDs), as long as you do the wiring properly. If you run a true RGB LED strip,
+where all the LEDs are combined under one lens, it is possible to get better
+transitions and more colors with very little code tweaking. The
+information on how the code works is contained in the code comments, so be sure to check those out in the <a href="https://github.com/Oftatkofta/Nucleotide-Control-RGB-LEDs/blob/master/Nucleotide-Control-RGB-LEDs.ino">Nucleotide-Control-RGB-LEDs.ino</a> file.</p>
+
+<p>Schematic wiring diagrams for the driving circuit are available in the
+repository in both .fzz and .PDF formats, with file names
+'Nucleotide-Control-RGB-LEDs.fzz', and
+'Nucleotide-Control-RGB-LEDs.PDF', respectively.</p>
+
+<p><img src="Nucleotide-Control-RGB-LEDs_schem.jpg" alt=""></p>
+
+<h2>
+<a id="list-components" class="anchor" href="#list-components" aria-hidden="true"><span class="octicon octicon-link"></span></a>List Components</h2>
+
+<ul>
+<li>1 x Arduino Pro Nano clone (16 MHz Atmega328P)</li>
+<li>3 x 5 m common cathode RGB LED strips</li>
+<li>3 x 8.2 kOhm resistors</li>
+<li>3 x TIP120 darlington transistors</li>
+<li>1 x LM2040CT-5.0 5V Voltage regulator (a 7805 will work fine too)</li>
+<li>1 x 1 uF 50 V capacitor</li>
+<li>1 x 22 uF 50 V capacitor</li>
+<li>1 x Nintendo GameCube 12 V power brick</li>
+<li>some differently colored wires (helps with keeping track on which
+channel is which)</li>
+</ul>
+
+<h2>
+<a id="to-dos-before-next-holiday-season" class="anchor" href="#to-dos-before-next-holiday-season" aria-hidden="true"><span class="octicon octicon-link"></span></a>To Do's before next holiday season</h2>
+
+<ul>
+<li><p>Real-time access to send GenBank accession numbers, so
+everyone can see their favourite gene, or genome, in action.</p></li>
+<li><p>Probably Raspberry Pi integration.</p></li>
+<li><p>Analogue knobs to change the variables controlling LED behaviour, such as
+gradient, speed, max_intensity <em>et.c.</em></p></li>
+<li><p>A fouth "dimension" of some sort to signal if the current nucleotide
+is exon or intron (coding, or non coding).</p></li>
+<li><p>If I get a proper RGB strip I'll move on to amino acid (protein) sequences.</p></li>
+</ul>
+
+<h1></h1>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/Oftatkofta" class="avatar"><img src="https://avatars0.githubusercontent.com/u/6969742?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/Oftatkofta">Oftatkofta</a> maintains <a href="https://github.com/Oftatkofta/Nucleotide-Control-RGB-LEDs">Nucleotide-control-rgb-leds</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/Oftatkofta/Nucleotide-Control-RGB-LEDs/tarball/master" class="tar">tar</a><a href="https://github.com/Oftatkofta/Nucleotide-Control-RGB-LEDs/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
