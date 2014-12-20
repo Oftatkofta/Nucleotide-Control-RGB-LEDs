@@ -18,6 +18,8 @@ By default the color mappings are:
 
 ![](Nucleotide-Control-RGB-LEDs_bb.jpg)
 
+A[video](http://youtu.be/BJyEnSF20Co) of it in action.
+
 The code was developed for 12 V LED strips with separate R, G, B LEDs,
 but it should work just as fine with combined RGB LED strips (or single
 LEDs), as long as you do the wiring properly. If you run a true RGB LED strip,
